@@ -1,0 +1,41 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.tfvars
+
+# Ignore .terraform directory
+**/.terraform/*
+
+# Ignore .idea directory for IntelliJ IDEA users
+.idea/
+
+# Ignore .vscode directory for Visual Studio Code users
+.vscode/
+
+# Ignore .terraform.lock.hcl file
+.terraform.lock.hcl
+
+# Ignore crash log files
+crash.log
+
+# Ignore .terraformrc file
+.terraformrc
+
+# Ignore override files as they're usually used to override resources locally and so not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+cli.tf
+
+# Ignore CLI configuration files
+*.tfvars.override
+
+# Ignore provider credentials file
+terraform.rc
+
+# Ignore MacOS system files
+.DS_Store
